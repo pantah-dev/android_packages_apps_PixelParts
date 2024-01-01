@@ -196,18 +196,6 @@
             </intent-filter>
         </service>
 
-        <!-- USB 2.0 Fastcharge tile service -->
-        <service
-            android:name=".services.USB2FCTileService"
-            android:label="@string/usb2_fast_charge_title"
-            android:icon="@drawable/ic_usb2_fc_tile"
-            android:exported="true"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE" />
-            </intent-filter>
-        </service>
-
         <!-- Search Provider -->
         <provider
             android:name=".ConfigPanelSearchIndexablesProvider"

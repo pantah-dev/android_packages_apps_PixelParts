@@ -107,20 +107,4 @@
                     android:targetClass="org.evolution.pixelparts.uibench.JitterTestActivity" />
         </Preference>
     </PreferenceCategory>
-
-    <!-- Start of usb category -->
-    <PreferenceCategory
-        android:key="category_usb"
-        android:title="@string/category_usb">
-
-        <SwitchPreference
-            android:key="usb2_fast_charge"
-            android:title="@string/usb2_fast_charge_title"
-            android:summary="@string/usb2_fast_charge_summary" />
-
-        <com.android.settingslib.widget.FooterPreference
-            android:key="usb2_fast_charge_footer"
-            android:title="@string/usb2_fast_charge_footer_summary"
-            android:selectable="false" />
-    </PreferenceCategory>
 </PreferenceScreen>
